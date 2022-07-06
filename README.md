@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/brianbianchi/devtools/master/docs/tools.png" width="12%">
-</p>
-
----
+# devtools
 
 ![Tests](https://github.com/brianbianchi/devtools/workflows/Tests/badge.svg)
 
