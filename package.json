@@ -1,0 +1,39 @@
+{
+  "name": "devtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "dt": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "resetMocks": true,
+    "restoreMocks": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbianchi/readr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianbianchi/readr/issues"
+  },
+  "homepage": "https://github.com/brianbianchi/readr#readme",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "inquirer": "^9.0.0",
+    "jsonwebtoken": "8.5.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
