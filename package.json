@@ -19,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brianbianchi/readr.git"
+    "url": "git+https://github.com/brianbianchi/devtools.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brianbianchi/readr/issues"
+    "url": "https://github.com/brianbianchi/devtools/issues"
   },
-  "homepage": "https://github.com/brianbianchi/readr#readme",
+  "homepage": "https://github.com/brianbianchi/devtools#readme",
   "dependencies": {
     "commander": "^9.3.0",
     "inquirer": "^9.0.0",
