@@ -9,15 +9,14 @@ const program = new Command();
 program.command("format")
   .description("Format JSON string.")
   .argument('<json>')
-  .option("-q, --quote")
-  .action((json, options) => {
-    format.formatJson(json, options.quote);
+  .action((json) => {
+    format.formatJson(json);
   });
 
 program.command("decode")
   .description("Decodes a JWT token.")
   .argument('<token>')
-  .action((token, options) => {
+  .action((token) => {
     jwt.decodeJwt(token);
   });
 

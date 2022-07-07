@@ -18,7 +18,7 @@ const mockDecodedTokenFormatted = JSON.stringify(mockDecodedToken, null, 4);
 jest.mock('jsonwebtoken')
 
 describe('decode', () => {
-    test('decodes good token', async () => {
+    test('decodes good token', () => {
         const logSpy = jest.spyOn(console, 'log');
         jwt.decode.mockReturnValue(mockDecodedToken);
 
@@ -30,7 +30,7 @@ describe('decode', () => {
         expect(logSpy).toBeCalledWith(mockDecodedTokenFormatted);
     });
 
-    test('fails to decode bad token', async () => {
+    test('fails to decode bad token', () => {
         const badToken = '1.1.1';
         const logSpy = jest.spyOn(console, 'log');
         jwt.decode.mockReturnValue(null);

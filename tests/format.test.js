@@ -18,7 +18,7 @@ describe('json', () => {
         expect(logSpy).not.toBeCalledWith(formatJsonFailed);
     });
 
-    test('Successfully formatted', () => {
+    test('Successfully formatted without quotes', () => {
         const logSpy = jest.spyOn(console, 'log');
         const replaceSpy = jest.spyOn(String.prototype, 'replace');
         const stringifySpy = jest.spyOn(JSON, 'stringify');
